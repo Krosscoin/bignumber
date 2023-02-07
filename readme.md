@@ -1,4 +1,4 @@
-### @waves/bignumber
+### @krosschain/bignumber
 
 A JavaScript library for arbitrary-precision decimal and non-decimal arithmetic.
 
@@ -17,23 +17,23 @@ Browser:
 [Node.js](http://nodejs.org):
 
 ```bash
-$ npm install @waves/bignumber
+$ npm install @krosschain/bignumber
 ```
 
 ```javascript
-const { BigNumber } = require('@waves/bignumber');
+const { BigNumber } = require('@krosschain/bignumber');
 ```
 
 ES6 module:
 
 ```javascript
-import { BigNumber } from "@waves/bignumber"
+import { BigNumber } from "@krosschain/bignumber"
 ```
 
 AMD loader libraries such as [requireJS](http://requirejs.org/):
 
 ```javascript
-require(['@waves/bignumber'], function(BigNumber) {
+require(['@krosschain/bignumber'], function(BigNumber) {
     // Use BigNumber here in local scope. No global BigNumber.
 });
 ```
